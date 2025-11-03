@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { ChevronDown } from "lucide-react";
+import EdukasiSection from "./components/EdukasiSection";
 
 export default function App() {
   const [visible, setVisible] = useState(false);
@@ -59,12 +60,12 @@ export default function App() {
               View Catalog
             </button>
             <a
-              href="https://www.linkedin.com/in/liem-hao-6a5273383/"
+              href="https://shopee.co.id/japrend_authentic"
               target="_blank"
               rel="noopener noreferrer"
               className="px-10 py-4 border-2 border-[#F4F4F4] text-[#F4F4F4] font-bold text-lg tracking-wide hover:bg-[#F4F4F4] hover:text-[#0E0E0E] transition-all duration-300 transform hover:scale-105"
             >
-              Visit LinkedIn
+              Marketplace
             </a>
           </div>
         </div>
@@ -107,7 +108,7 @@ export default function App() {
                 </h3>
                 <p className="text-[#C9A227] mb-4 font-medium">Rp 519.000</p>
                 <a
-                  href="https://wa.me/6285792280283"
+                  href="https://shopee.co.id/japrend_authentic"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 bg-[#C9A227] text-black font-bold rounded-md hover:bg-[#F4F4F4] transition-all"
@@ -204,7 +205,7 @@ export default function App() {
               </h3>
               <p className="text-[#C9A227] mb-4 font-medium">Rp 539.000</p>
               <a
-                href="https://wa.me/6285792280283"
+                href="https://shopee.co.id/japrend_authentic3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#C9A227] text-black font-bold rounded-md hover:bg-[#F4F4F4] transition-all"
@@ -220,6 +221,8 @@ export default function App() {
       <footer className="bg-[#0A0A0A] text-[#F4F4F4]/70 py-10 text-center text-sm">
         <p>© 2025 Japrend Authentic — THE LIVING HERITAGE WEAR</p>
       </footer>
+      <EdukasiSection />
+
             {/* === GET IN TOUCH SECTION === */}
       <section className="bg-[#0E0E0E] text-center py-24 px-6">
         <h2 className="text-5xl font-bold mb-6">Get in Touch</h2>
@@ -228,6 +231,15 @@ export default function App() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-12">
+          <a
+            href="https://www.linkedin.com/in/liem-hao-6a5273383?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BihiH49OCRTqdX%2B%2BmRa2K1w%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-[#C9A227] text-[#C9A227] px-8 py-3 font-semibold hover:bg-[#C9A227] hover:text-[#0E0E0E] transition-all duration-300"
+          >
+            LinkedIn
+          </a>
+          
           <a
             href="https://instagram.com/japrend_authentic"
             target="_blank"
